@@ -73,12 +73,7 @@ const App = () => {
   const [modalVisible, setModalVisible] = useState(false);
   return (
     <>
-      <StatusBar
-        animated={true}
-        barStyle="dark-content"
-        backgroundColor="transparent"
-        translucent={true}
-      />
+      <StatusBar barStyle="dark-content" />
       <View style={styles.centeredView}>
         <Modal
           animationType="slide"
